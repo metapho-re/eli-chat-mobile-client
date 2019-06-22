@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Eli Chat",
+    "description": "A simple instant messaging app.",
+    "slug": "eli-chat-mobile-client",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#405057"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
